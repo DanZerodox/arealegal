@@ -2,7 +2,12 @@ import './App.css';
 import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 import BorderLinearProgress from '@material-ui/core/LinearProgress';
-
+import PrimerPaso from './PrimerPaso';
+import SegundoPaso from './SegundoPaso';
+import TercerPaso from './TercerPaso';
+import CuartoPaso from './CuartoPaso';
+import QuintoPaso from './QuintoPaso';
+import SextoPaso from './SextoPaso';
 class App extends React.Component {
   constructor(props) {
     super(props);
