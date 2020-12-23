@@ -22,19 +22,19 @@ export default class SegundoPaso extends React.Component {
                 <Form style={{ padding: '50px 80px' }}>
                     <Grid style={{ lineHeight: 1 }} container spacing={3}>
                         <Grid xs={12} style={{ fontWeight: 500, borderBottom: '1px solid' }}>
-                             <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22}}>Publicidad – Legales Mínimos</p></div>              
+                             <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22, color:'rgb(0, 20, 137)'}}>Publicidad – Legales Mínimos</p></div>              
                         </Grid>
                         <Grid item xs={12} sm={8}>
                             <p>- ¿La marca utilizada está acompañado del signo de marca registrada?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p1b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p1b" value="1" />
                       No
                     </label>
@@ -43,13 +43,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- ¿El nombre del producto está bien escrito y acompañado del signo de la marca registrada?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p2b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p2b" value="1" />
                       No
                     </label>
@@ -65,13 +65,13 @@ export default class SegundoPaso extends React.Component {
                              </ul>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p3b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p3b" value="1" />
                       No
                     </label>
@@ -80,13 +80,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- Si tu publicidad incluye envases, éstos se encuentran con los octágonos correspondientes en el material publicitario?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p4b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p4b" value="1" />
                       No
                     </label>
@@ -95,13 +95,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- Si tu publicidad incluye imágenes de los premios/incentivos que se ofrecen, ¿ya indica que son de carácter ilustrativo o que solamente son de referencia?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p5b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p5b" value="1" />
                       No
                     </label>
@@ -110,13 +110,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya incluye el legal "Consulta mecánica, términos y condiciones"?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p6b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p6b" value="1" />
                       No
                     </label>
@@ -125,13 +125,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya indica dónde se pueden consultar la mecánica, términos y condiciones (e.g., URL)?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p7b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p7b" value="1" />
                       No
                     </label>
@@ -140,13 +140,13 @@ export default class SegundoPaso extends React.Component {
                             <p>- Si tu publicidad es de b:oost®, ¿ya indica que es una promoción limitada a mayores de 18 años?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p8b" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p8b" value="1" />
                       No
                     </label>

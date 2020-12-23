@@ -22,7 +22,7 @@ export default class CuartoPaso extends React.Component {
                 <Form style={{ padding: '50px 80px' }}>
                     <Grid style={{ lineHeight: 1 }} container spacing={3}>
                         <Grid xs={12} style={{ fontWeight: 500, borderBottom: '1px solid' }}>
-                            <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22}}>Promociones y Ofertas – Materializadas al comprar un producto.</p></div>              
+                            <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22, color:'rgb(0, 20, 137)'}}>Promociones y Ofertas – Materializadas al comprar un producto.</p></div>              
                         </Grid>
                         <Grid item xs={12} sm={8}>
                             <p>- El material publicitario, ¿ya indica el plazo de duración o el volumen de los bienes o servicios ofrecidos?
@@ -30,13 +30,13 @@ Si no se fija plazo ni volumen, se presume que son indefinidos hasta que se haga
 </p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p1d" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p1d" value="1" />
                       No
                     </label>
@@ -45,13 +45,13 @@ Si no se fija plazo ni volumen, se presume que son indefinidos hasta que se haga
                             <p>- Si el material publicitario tiene un logo, marca, aviso comercial o personaje de terceros, ¿cuentas con una licencia a carta formal de autorización para su uso?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p2d" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p2d" value="1" />
                       No
                     </label>
@@ -60,13 +60,13 @@ Si no se fija plazo ni volumen, se presume que son indefinidos hasta que se haga
                             <p>- Si el material publicitario tiene un logo, marca, aviso comercial o personaje de terceros y cuentas con una licencia a carta formal de autorización para su uso, ¿la licencia o autorización aún está vigente?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p3d" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p3d" value="1" />
                       No
                     </label>
@@ -75,13 +75,13 @@ Si no se fija plazo ni volumen, se presume que son indefinidos hasta que se haga
                             <p>- Si el material publicitario tiene el nombre, la imagen y/o material de un artista (e.g., canción) ¿cuentas con una licencia a carta formal de autorización para su uso?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p4d" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p4d" value="1" />
                       No
                     </label>
@@ -90,13 +90,13 @@ Si no se fija plazo ni volumen, se presume que son indefinidos hasta que se haga
                             <p>- Si el material publicitario tiene el nombre, la imagen y/o material de un artista (e.g., canción) y cuentas con una licencia a carta formal de autorización para su uso, ¿la licencia o autorización aún está vigente?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p5d" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p5d" value="1" />
                       No
                     </label>

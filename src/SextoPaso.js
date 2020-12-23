@@ -22,19 +22,19 @@ export default class SextoPaso extends React.Component {
                 <Form style={{ padding: '50px 80px' }}>
                     <Grid style={{ lineHeight: 1 }} container spacing={3}>
                         <Grid xs={12} style={{ fontWeight: 500, borderBottom: '1px solid' }}>
-                            <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22}}>Promociones y Ofertas –Términos y Condiciones</p></div>              
+                            <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22, color:'rgb(0, 20, 137)'}}>Promociones y Ofertas –Términos y Condiciones</p></div>              
                         </Grid>
                         <Grid item xs={12} sm={8}>
                             <p>- Nombre completo, formal, de la entidad que lleva a cabo la promoción?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p1f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p1f" value="1" />
                       No
                     </label>
@@ -43,13 +43,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Domicilio completo, formal de la entidad que lleva a cabo la promoción?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p2f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p2f" value="1" />
                       No
                     </label>
@@ -58,13 +58,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Alcance geográfico de la promoción (e.g., nacional, regional, sólo ciertas ciudades, etc.)?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p3f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p3f" value="1" />
                       No
                     </label>
@@ -73,13 +73,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Vigencia de la promoción, indicando día de inicio y día de finalización?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p4f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p4f" value="1" />
                       No
                     </label>
@@ -88,13 +88,13 @@ export default class SextoPaso extends React.Component {
                             <p>- La vigencia de la promoción, ¿da margen para llevar a cabo las revisiones internas de Jumex®? </p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p5f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p5f" value="1" />
                       No
                     </label>
@@ -103,13 +103,13 @@ export default class SextoPaso extends React.Component {
                           <p>- ¿Tu promoción indica a los consumidores que deberán de comprar producto y exhibir su ticket? </p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p6f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p6f" value="1" />
                       No
                     </label>
@@ -119,13 +119,13 @@ export default class SextoPaso extends React.Component {
                             <p style={{fontWeight:500}}>El aviso de promoción debe efectuarse cuando menos 3 (tres) días hábiles anteriores de la fecha y hora en que inicia(n) la(s) promoción(es) que tenga prevista realizar.</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p7f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p7f" value="1" />
                       No
                     </label>
@@ -134,13 +134,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Productos participantes (con descripción de marca, presentación, etc.)?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p8f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p8f" value="1" />
                       No
                     </label>
@@ -149,13 +149,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Establecimientos participantes?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p9f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p9f" value="1" />
                       No
                     </label>
@@ -164,13 +164,13 @@ export default class SextoPaso extends React.Component {
                             <p>- Descripción clara y completa de incentivos, incluyendo cantidad de incentivos y valor monetario en el mercado?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p10f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p10f" value="1" />
                       No
                     </label>
@@ -181,13 +181,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
 </p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p11f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p11f" value="1" />
                       No
                     </label>
@@ -196,13 +196,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p>- Mecánica y condiciones para que el consumidor pueda hacerse acreedor al incentivo?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p12f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p12f" value="1" />
                       No
                     </label>
@@ -211,13 +211,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p>- Medios de comunicación y fechas para dar a conocer resultados de la promoción?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p13f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p13f" value="1" />
                       No
                     </label>
@@ -226,13 +226,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p>- Procedimiento, lugar y fecha para la entrega - recepción del incentivo (e.g., canje, envío a domicilio, etc.)?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p14f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p14f" value="1" />
                       No
                     </label>
@@ -241,13 +241,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p>- Restricciones al consumidor respecto a la cantidad mínima o máxima de compra o de los bienes promocionados?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p15f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p15f" value="1" />
                       No
                     </label>
@@ -256,13 +256,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p>- Teléfono(s) para información y aclaraciones, señalando el horario de atención?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p16f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p16f" value="1" />
                       No
                     </label>
@@ -272,13 +272,13 @@ Si el autor de la promoción u oferta no cumple su ofrecimiento, el consumidor p
                             <p style={{fontWeight:500}}>Se sebe dar aviso a PROFECO de cualquier cambio, cuando menos 1 (un) día hábil antes de que éstos se realicen.</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'rgb(0, 20, 137)'}}>
                                 <Field type="radio" name="p17f" value="0" />
                       Si
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
-                            <label>
+                            <label style={{color:'red'}}>
                                 <Field type="radio" name="p17f" value="1" />
                       No
                     </label>
