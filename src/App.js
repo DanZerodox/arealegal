@@ -28,7 +28,7 @@ class App extends React.Component {
     return (
       <Card>
         <CardContent>
-          <div style={{ textAlign: 'center', fontWeight: 700 }}>
+          <div style={{ textAlign: 'center', fontWeight: 700, fontSize:21, color:'#001489' }}>
             <p>Marco legal relacionado con Publicidad y Promociones </p>
             <p>Consideraciones Básicas</p>
             <label>

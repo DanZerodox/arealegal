@@ -6,6 +6,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import BorderLinearProgress from '@material-ui/core/LinearProgress';
+import planta from './planta.png';
+
 
 export default class SegundoPaso extends React.Component {
     render() {
@@ -20,10 +22,10 @@ export default class SegundoPaso extends React.Component {
                 <Form style={{ padding: '50px 80px' }}>
                     <Grid style={{ lineHeight: 1 }} container spacing={3}>
                         <Grid xs={12} style={{ fontWeight: 500, borderBottom: '1px solid' }}>
-                            <p>II.	Publicidad – Legales Mínimos</p>
+                             <div><img style={{width:25}} src={planta}></img><p style={{marginLeft:37, marginTop:-22}}>Publicidad – Legales Mínimos</p></div>              
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>¿La marca utilizada está acompañado del signo de marca registrada?</p>
+                            <p>- ¿La marca utilizada está acompañado del signo de marca registrada?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -38,7 +40,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>¿El nombre del producto está bien escrito y acompañado del signo de la marca registrada?</p>
+                            <p>- ¿El nombre del producto está bien escrito y acompañado del signo de la marca registrada?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -53,14 +55,14 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>¿Se incluye la leyenda promotora de salud?</p>
-                            <p>Opciones</p>
-                            <ul>
-                                <li>COME FRUTAS Y VERDURAS</li>
-                                <li>COME BIEN</li>
-                                <li>ALIMÉNTATE SANAMENTE</li>
-                                <li>HIDRÁTATE DIARIAMENTE</li>
-                            </ul>
+                            <p>- ¿Se incluye la leyenda promotora de salud?</p>
+                            <p style={{marginLeft:52}}>Opciones</p>
+                            <ul style={{marginLeft:31}}>
+                                        <li>COME FRUTAS Y VERDURAS</li>
+                                        <li>COME BIEN</li>
+                                        <li>ALIMÉNTATE SANAMENTE</li>
+                                        <li>HIDRÁTATE DIARIAMENTE</li>
+                             </ul>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -75,7 +77,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>Si tu publicidad incluye envases, éstos se encuentran con los octágonos correspondientes en el material publicitario?</p>
+                            <p>- Si tu publicidad incluye envases, éstos se encuentran con los octágonos correspondientes en el material publicitario?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -90,7 +92,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>Si tu publicidad incluye imágenes de los premios/incentivos que se ofrecen, ¿ya indica que son de carácter ilustrativo o que solamente son de referencia?</p>
+                            <p>- Si tu publicidad incluye imágenes de los premios/incentivos que se ofrecen, ¿ya indica que son de carácter ilustrativo o que solamente son de referencia?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -105,7 +107,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya incluye el legal "Consulta mecánica, términos y condiciones"?</p>
+                            <p>- Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya incluye el legal "Consulta mecánica, términos y condiciones"?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -120,7 +122,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya indica dónde se pueden consultar la mecánica, términos y condiciones (e.g., URL)?</p>
+                            <p>- Si tu publicidad está asociada a una promoción de materialización con mecánica, ¿ya indica dónde se pueden consultar la mecánica, términos y condiciones (e.g., URL)?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -135,7 +137,7 @@ export default class SegundoPaso extends React.Component {
                     </label>
                         </Grid>
                         <Grid item xs={12} sm={8}>
-                            <p>Si tu publicidad es de b:oost®, ¿ya indica que es una promoción limitada a mayores de 18 años?</p>
+                            <p>- Si tu publicidad es de b:oost®, ¿ya indica que es una promoción limitada a mayores de 18 años?</p>
                         </Grid>
                         <Grid item xs={12} sm={2} style={{ padding: 30 }}>
                             <label>
@@ -149,7 +151,7 @@ export default class SegundoPaso extends React.Component {
                       No
                     </label>
                         </Grid>
-                        <Grid item xs={12} style={{border:'1px solid blue'}}>
+                        <Grid item xs={12} style={{border:'3px solid #43b02a'}}>
                             <p>Si respondiste “No” a cualquiera de estas preguntas, tu pieza publicitaria no está lista.</p>
                             <p style={{fontWeight:500, textAlign:'center'}}>Reglas Leyenda Promotora de Salud</p>
                             <ul>
